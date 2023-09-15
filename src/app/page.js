@@ -12,7 +12,7 @@ export default function Home() {
                     />
                     <div className="flex flex-col sm:min-h-0 min-h-screen md:flex-row bg-sky-50 border-sky-50 border-[20px] rounded-none sm:rounded-3xl">
                         <div className="flex flex-col text-slate-700 pr-10 pl-5 pt-10 w-full md:w-[50%] bg-sky-50">
-                            <span className="xl:text-5xl font-bold pt-5">
+                            <span className="text-5xl sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold pt-5">
                                 Stay updated!
                             </span>
                             <p className="text-lg mt-4">
