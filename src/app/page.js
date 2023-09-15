@@ -19,14 +19,14 @@ export default function Home() {
                             </p>
                             <div className="pt-5 space-y-2">
                                 <div className="flex gap-x-4">
-                                    <img src="/icon-list.svg" alt="icon" />
+                                    <img src="./icon-list.svg" alt="icon" />
                                     <p>
                                         Product discovery and building what
                                         matters
                                     </p>
                                 </div>
                                 <div className="flex gap-x-4">
-                                    <img src="/icon-list.svg" alt="icon" />
+                                    <img src="../icon-list.svg" alt="icon" />
                                     <p>
                                         Measuring to ensure updates are a
                                         success
