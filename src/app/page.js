@@ -1,4 +1,5 @@
 import EmailInput from "@/components/EmailInput";
+import Link from "next/link";
 export default function Home() {
     return (
         <main className="flex justify-center items-center sm:min-h-screen min-h-0 sm:bg-darkSlateGray bg-white">
@@ -56,6 +57,17 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="text-whiteBetter font-semibold absolute bottom-10">
+                Made by{" "}
+                <Link
+                    target="_blank"
+                    href="https://github.com/Aztarok"
+                    passHref={true}
+                    className="underline text-sky-500"
+                >
+                    Aztarok
+                </Link>
             </div>
         </main>
     );
