@@ -7,7 +7,7 @@ export default function Home() {
                 <div className="mx-auto">
                     <img
                         className="w-screen sm:hidden flex"
-                        src="/illustration-sign-up-mobile.svg"
+                        src="./illustration-sign-up-mobile.svg"
                         alt="logo"
                     />
                     <div className="flex flex-col sm:min-h-0 min-h-screen md:flex-row bg-sky-50 border-sky-50 border-[20px] rounded-none sm:rounded-3xl">
@@ -26,14 +26,14 @@ export default function Home() {
                                     </p>
                                 </div>
                                 <div className="flex gap-x-4">
-                                    <img src="../icon-list.svg" alt="icon" />
+                                    <img src="./icon-list.svg" alt="icon" />
                                     <p>
                                         Measuring to ensure updates are a
                                         success
                                     </p>
                                 </div>
                                 <div className="flex gap-x-4">
-                                    <img src="/icon-list.svg" alt="icon" />
+                                    <img src="./icon-list.svg" alt="icon" />
                                     <p>And much more!</p>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ export default function Home() {
                         </div>
                         <div className="hidden md:flex justify-end w-[50%] bg-sky-50 rounded-r-2xl">
                             <img
-                                src="/illustration-sign-up-desktop.svg"
+                                src="./illustration-sign-up-desktop.svg"
                                 alt="image"
                             />
                         </div>

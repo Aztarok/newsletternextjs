@@ -17,7 +17,7 @@ const EmailTransfer = () => {
         <div className="text-charcoalGray flex flex-col gap-5">
             <img
                 className="sm:pt-0 pt-32"
-                src="/icon-list.svg"
+                src="./icon-list.svg"
                 width={50}
                 alt="checkmark"
             />

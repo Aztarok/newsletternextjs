@@ -70,19 +70,14 @@ const EmailInput = ({ inputStyle, errorMessageStyle }) => {
                 onSubmit={(e) => handleSubmit(e)}
                 className="flex flex-col pt-10"
             >
-                     
                 <div className="flex ">
-                           {" "}
                     <label htmlFor="email" className="text-sm pb-2">
                         Email address
                     </label>
-                           {" "}
                     {!isTyping && errorMessage && (
                         <p className={errorMessageStyle}>{errorMessage}</p>
                     )}
-                           {" "}
                 </div>
-                       {" "}
                 {!isTyping && errorMessage ? (
                     <input
                         type="text"
@@ -104,16 +99,13 @@ const EmailInput = ({ inputStyle, errorMessageStyle }) => {
                         className={inputStyle} // Apply the input style
                     />
                 )}
-                     {" "}
                 <button
                     type="submit"
                     className="mt-5 p-4 text-sm text-whiteBetter rounded-lg bg-darkSlateGray flex justify-center w-full font-semibold relative overflow-hidden bg-gradient-to-r hover:from-pink-500 hover:via-pink-400 hover:to-orange-500 hover:text-whiteBetter transition duration-300"
                 >
                     Subscribe to monthly newsletter
                 </button>
-                     {" "}
             </form>
-               {" "}
         </div>
     );
 };
