@@ -71,7 +71,7 @@ const EmailInput = ({ inputStyle, errorMessageStyle }) => {
                 className="flex flex-col pt-10"
             >
                 <div className="flex ">
-                    <label htmlFor="email" className="text-sm pb-2">
+                    <label htmlFor="email" className="text-sm pb-2 font-bold">
                         Email address
                     </label>
                     {!isTyping && errorMessage && (
@@ -101,7 +101,7 @@ const EmailInput = ({ inputStyle, errorMessageStyle }) => {
                 )}
                 <button
                     type="submit"
-                    className="mt-5 p-4 text-sm text-whiteBetter rounded-lg bg-darkSlateGray flex justify-center w-full font-semibold relative overflow-hidden bg-gradient-to-r hover:from-pink-500 hover:via-pink-400 hover:to-orange-500 hover:text-whiteBetter transition duration-300"
+                    className="mt-5 p-4 text-sm text-whiteBetter rounded-lg bg-darkSlateGray flex justify-center w-full font-bold relative overflow-hidden bg-gradient-to-r hover:from-pink-500 hover:via-pink-400 hover:to-orange-500 hover:text-whiteBetter transition duration-300"
                 >
                     Subscribe to monthly newsletter
                 </button>
